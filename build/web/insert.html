@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            input{
+                margin: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Insert a new animal to the database !</h1>
+            <form action="insert">
+                <label>Id </label><input type="text" name="id"><br>
+                <label>Type  </label>
+                <input type="radio" name="type" value="dog" checked="checked">dog
+                <input type="radio" name="type" value="cat">cat
+                <input type="radio" name="type" value="hamster">hamster
+                <input type="radio" name="type" value="fish">fish
+                <input type="radio" name="type" value="bird">bird<br>
+                <label>gender  </label>
+                <input type="radio" name="gender" value="male" checked="checked">male
+                <input type="radio" name="gender" value="female">female<br>
+                <label>Date of birth</label><input type="date" name="dob" value="2023-01-01"><br>
+                <label>weight(kg)</label>
+                <input type="text" name="weight"><br>
+                <label>Price(Dong)</label>
+                <input type="text" name="price"><br>
+                <label>Description</label>
+                <input type="text" name="description"><br>
+                <label>Img path</label>
+                <input type="text" name="path"><br>
+                <input type="submit" name="submit" value="insert"><br>
+            </form>
+        </div>
+    </body>
+</html>

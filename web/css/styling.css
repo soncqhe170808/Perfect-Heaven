@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 28, 2023, 11:57:35 PM
+    Author     : FPT
+*/
+
+table, td, th {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+th{
+    text-align: center;
+}
+td{
+    width: 9%;
+    text-align: center;
+    padding: 0;
+}
+.description{
+    width: 19%;
+    
+}
+.backa a{
+    margin-left: 650px;
+    text-decoration: none;
+}
+.confirmDeleteId{
+    display: none;
+}
+.personalIcon{
+    margin: 0 auto;
+    text-align: center;
+}
+.personalIcon img{
+    border: solid black 1px
+}
+.personalIcon h1{
+    
+}
+.LogOutButton, .kart, .fullList, .insertNewA{
+    text-align: center;
+    margin-bottom: 10px auto;;
+    width: 100px;
+}
+.LogOutButton a, .fullList a, .insertNewA a{
+    color: white;
+}
+.clickSpace{
+    width: 300px;
+    background-color: #ff6161;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+.clickSpace p{
+    margin: 10px auto;
+}
+.kartForm{
+    text-align: center;
+}
