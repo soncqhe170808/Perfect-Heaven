@@ -20,6 +20,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          projectBaseDir: 'path/to/your/project'
-          args: >
-            -Dsonar.sources=src/main/java
+          projectBaseDir: ${{ github.workspace }}
+          extraProperties: |
+            sonar.sources=src/main/java
+            sonar.java.binaries=build/classes/java/main
