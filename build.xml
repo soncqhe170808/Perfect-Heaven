@@ -71,6 +71,10 @@
 <path id="lib.path">
     <pathelement location="lib/CopyLibs/jakarta.servlet-api-4.0.2.jar"/>
 </path>
+<javac srcdir="src/java" destdir="build/web/WEB-INF/classes" includeantruntime="false">
+    <classpath refid="lib.path"/>
+</javac>
+
 </project>
 
 
